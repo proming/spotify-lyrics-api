@@ -121,7 +121,7 @@ class Spotify {
 
             $params = [
                 'reason' => 'transport',
-                'productType' => 'web_player',
+                'productType' => 'web-player',
                 'totp' => $totp,
                 'totpServer' => $totp,
                 'totpVer' => '5',
